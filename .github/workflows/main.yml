@@ -20,4 +20,4 @@ jobs:
           echo Downloading cdefense CLI
           curl -L https://github.com/CloudDefenseAI/cd/releases/download/1.38.4/cd-latest-linux-x64.tar.gz > /tmp/cd-latest-linux-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-linux-x64.tar.gz && chmod +x /usr/local/bin/cd-latest-linux-x64
           export SCAN_URL=https://dev.clouddefenseai.com
-          cd-latest-linux-x64 online --api-key="$API_KEY" --repository-url="$REPO_URL" --pr-id="$GITHUB_PR_NUMBER" --type=GITHUB
+          cd-latest-linux-x64 online --api-key="8a13d29a-ec17-4863-b1bb-50247126e9c4" --repository-url="$REPO_URL" --pr-id="$GITHUB_PR_NUMBER" --type=GITHUB
