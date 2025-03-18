@@ -1,7 +1,7 @@
 package src;
 
 public class Main {
-    public void newMethod() {
+    public static void main(String[] args) {
         System.out.println("Hello World!");
     }
 }
